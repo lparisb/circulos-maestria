@@ -1,0 +1,42 @@
+.circulo-uno{
+  background-color: blue;
+  width:70px;
+  height:70px;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  animation-name: cambio-color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes cambio-color{
+  0%{
+  }
+
+   50%{
+     background-color: purple;
+     top: 30px;
+    left: 120px;
+  }
+  100%{
+    background-color: pink;
+    
+  }
+}
+
+
+.circulo-dos{
+  background-color: blue;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  animation-name: cambio-color-dos;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
